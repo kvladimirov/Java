@@ -1,0 +1,4 @@
+thou -> 6
+shall -> 2
+two -> 1
+see -> 1

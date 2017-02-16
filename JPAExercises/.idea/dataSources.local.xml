@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - javablogdb@localhost" uuid="8ab44778-51d8-4f0a-b436-b08f53730844">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>javablogdb:</introspection-scope>
+      <resolve-scope>javablogdb:</resolve-scope>
+    </data-source>
+  </component>
+</project>
