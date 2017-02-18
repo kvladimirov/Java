@@ -8,14 +8,6 @@ public class ExtractEmails {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        StringBuilder sb = new StringBuilder();
-
-        String input = "";
-
-        while (!"END".equals(input = reader.readLine())){
-            sb.append(input);
-        }
-
         String text = reader.readLine();
 
         Pattern pattern = Pattern.compile("\\b(?<!\\S)[a-z][a-z0-9\\.\\-_]+[a-z0-9]*@[a-z][a-z\\-]+\\.[a-z][a-z\\.]+[a-z]?\\b");
@@ -26,3 +18,4 @@ public class ExtractEmails {
         }
     }
 }
+
